@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.box{
+    flex:1;
+    height: 200px;
+    background-color: aquamarine;
+
+}
+/* flex ley whole area khaidixa*/
+
+.container :nth-child(even){
+    background-color: red;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: yellow;
+    height: 100vh;
+}
+
+
+
